@@ -1,0 +1,88 @@
+{
+  "fecha": "2026-09-14",
+  "fase": 4,
+  "experimento1": {
+    "n": 3,
+    "instancias": 1000,
+    "semilla": 20260911,
+    "metodo": "permutacion",
+    "muestra": "sin reemplazo, filtrada por solubilidad",
+    "algoritmos": [
+      "astar",
+      "codicioso"
+    ],
+    "heuristicas": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6_0.25",
+      "H6_0.5",
+      "H6_0.75"
+    ],
+    "segundos_por_busqueda": 300,
+    "memoria_mib": 1024,
+    "max_nodos_simultaneos": 2000000
+  },
+  "experimento2": {
+    "tamanos": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "instancias_por_tamano": 100,
+    "semilla": "20260911 + N",
+    "metodo": "permutacion",
+    "algoritmo": "astar",
+    "heuristica": "seleccionada tras el experimento 1 por Ã©xito, mediana expansiones, CPU y memoria",
+    "segundos_por_busqueda": 5,
+    "memoria_mib": 1024,
+    "max_nodos_simultaneos": 2000000,
+    "segundos_preparacion": 300,
+    "max_estados_por_patron": 350000,
+    "umbral_exito": 0.5,
+    "interpretacion": "lÃ­mite observado para respuesta en cinco segundos; no lÃ­mite absoluto del algoritmo",
+    "parada": "se completan los cuatro tamaÃ±os predefinidos, salvo preparaciÃ³n inviable o fallo tÃ©cnico documentado"
+  },
+  "analisis": {
+    "alpha": 0.05,
+    "ic_media": "bootstrap percentil 95%, 5000 remuestreos, semilla 20260913",
+    "ic_exito": "Wilson 95%",
+    "principal": "Friedman por algoritmo sobre expansiones; bloques comunes resueltos",
+    "posthoc": "Wilcoxon pareado Pratt, bilateral; Bonferroni sobre 28 pares por familia",
+    "secundarios": [
+      "CPU",
+      "memoria en nodos",
+      "profundidad"
+    ],
+    "crecimiento": "regresiÃ³n no lineal exponencial y potencial; al menos cuatro tamaÃ±os totalmente resueltos, sin imputar censura",
+    "dificultad": "profundidad Ã³ptima de A* en el experimento 1; estratos descriptivos, no selecciÃ³n de muestra",
+    "preparacion": "separada de bÃºsqueda; tablas y entradas registradas",
+    "exploratorios_adicionales": [
+      "nodos generados",
+      "tiempo de pared",
+      "RSS muestreado"
+    ]
+  },
+  "experimento2_complementario": {
+    "tamanos": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "instancias_por_tamano": 100,
+    "metodo": "mezcla",
+    "pasos": 20,
+    "semilla": "20261911 + N",
+    "algoritmo": "astar",
+    "heuristica": "misma seleccionada que en escalabilidad principal",
+    "segundos_por_busqueda": 5,
+    "memoria_mib": 1024,
+    "max_nodos_simultaneos": 2000000,
+    "proposito": "estudio separado de casos cercanos a meta; no reemplaza el muestreo uniforme ni demuestra un limite universal",
+    "modelos": "nodos, CPU y tiempo de pared; al menos cuatro tamanos sin censura, omitir variable constante o con medianas cero"
+  }
+}

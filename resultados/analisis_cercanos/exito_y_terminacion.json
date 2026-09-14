@@ -1,0 +1,42 @@
+[
+  {
+    "n": 3,
+    "terminaciones": {
+      "resuelto": 100
+    },
+    "ic95_exito_porcentaje": [
+      96.30065017930143,
+      100.0
+    ]
+  },
+  {
+    "n": 4,
+    "terminaciones": {
+      "resuelto": 100
+    },
+    "ic95_exito_porcentaje": [
+      96.30065017930143,
+      100.0
+    ]
+  },
+  {
+    "n": 5,
+    "terminaciones": {
+      "resuelto": 100
+    },
+    "ic95_exito_porcentaje": [
+      96.30065017930143,
+      100.0
+    ]
+  },
+  {
+    "n": 6,
+    "terminaciones": {
+      "resuelto": 100
+    },
+    "ic95_exito_porcentaje": [
+      96.30065017930143,
+      100.0
+    ]
+  }
+]

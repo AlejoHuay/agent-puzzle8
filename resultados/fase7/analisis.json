@@ -1,0 +1,432 @@
+{
+  "fase": 7,
+  "instancias": 1000,
+  "heuristica": "H5",
+  "peso": null,
+  "metricas": {
+    "profundidad": {
+      "astar": {
+        "n": 1000,
+        "media": 21.855,
+        "mediana": 22.0,
+        "desviacion": 3.4490391228385437,
+        "minimo": 8.0,
+        "maximo": 30.0,
+        "p25": 20.0,
+        "p75": 24.0,
+        "ic95_inferior": 21.639,
+        "ic95_superior": 22.074
+      },
+      "codicioso": {
+        "n": 1000,
+        "media": 27.359,
+        "mediana": 26.0,
+        "desviacion": 7.847783553762598,
+        "minimo": 8.0,
+        "maximo": 58.0,
+        "p25": 22.0,
+        "p75": 32.0,
+        "ic95_inferior": 26.870974999999998,
+        "ic95_superior": 27.845025
+      },
+      "diferencia_codicioso_menos_astar": {
+        "n": 1000,
+        "media": 5.504,
+        "mediana": 4.0,
+        "desviacion": 6.143592412239579,
+        "minimo": 0.0,
+        "maximo": 34.0,
+        "p25": 0.0,
+        "p75": 10.0,
+        "ic95_inferior": 5.124,
+        "ic95_superior": 5.892
+      },
+      "signos": {
+        "codicioso_menor": 0,
+        "empates": 352,
+        "codicioso_mayor": 648,
+        "no_empatados": 648,
+        "p": 1.712351053912815e-195,
+        "p_bonferroni": 1.1986457377389704e-194,
+        "significativo": true
+      }
+    },
+    "expandidos": {
+      "astar": {
+        "n": 1000,
+        "media": 134.565,
+        "mediana": 85.0,
+        "desviacion": 150.50916511556292,
+        "minimo": 8.0,
+        "maximo": 1597.0,
+        "p25": 40.0,
+        "p75": 175.25,
+        "ic95_inferior": 125.4786,
+        "ic95_superior": 144.32777499999997
+      },
+      "codicioso": {
+        "n": 1000,
+        "media": 42.318,
+        "mediana": 36.0,
+        "desviacion": 23.274031807071086,
+        "minimo": 8.0,
+        "maximo": 132.0,
+        "p25": 25.0,
+        "p75": 53.0,
+        "ic95_inferior": 40.868,
+        "ic95_superior": 43.76005
+      },
+      "diferencia_codicioso_menos_astar": {
+        "n": 1000,
+        "media": -92.247,
+        "mediana": -46.5,
+        "desviacion": 144.11193649813063,
+        "minimo": -1540.0,
+        "maximo": 80.0,
+        "p25": -122.0,
+        "p75": -7.75,
+        "ic95_inferior": -101.247575,
+        "ic95_superior": -83.369775
+      },
+      "signos": {
+        "codicioso_menor": 852,
+        "empates": 44,
+        "codicioso_mayor": 104,
+        "no_empatados": 956,
+        "p": 1.0035162215544234e-146,
+        "p_bonferroni": 7.0246135508809635e-146,
+        "significativo": true
+      }
+    },
+    "generados": {
+      "astar": {
+        "n": 1000,
+        "media": 375.537,
+        "mediana": 237.5,
+        "desviacion": 417.33719815991475,
+        "minimo": 22.0,
+        "maximo": 4465.0,
+        "p25": 114.75,
+        "p75": 492.0,
+        "ic95_inferior": 350.28077499999995,
+        "ic95_superior": 402.6591
+      },
+      "codicioso": {
+        "n": 1000,
+        "media": 118.407,
+        "mediana": 101.0,
+        "desviacion": 62.901000682714795,
+        "minimo": 22.0,
+        "maximo": 365.0,
+        "p25": 71.0,
+        "p75": 149.0,
+        "ic95_inferior": 114.4975,
+        "ic95_superior": 122.28354999999999
+      },
+      "diferencia_codicioso_menos_astar": {
+        "n": 1000,
+        "media": -257.13,
+        "mediana": -128.5,
+        "desviacion": 399.80536944047344,
+        "minimo": -4305.0,
+        "maximo": 214.0,
+        "p25": -341.5,
+        "p75": -22.0,
+        "ic95_inferior": -282.125375,
+        "ic95_superior": -232.52882500000004
+      },
+      "signos": {
+        "codicioso_menor": 858,
+        "empates": 39,
+        "codicioso_mayor": 103,
+        "no_empatados": 961,
+        "p": 6.732716893016699e-149,
+        "p_bonferroni": 4.712901825111689e-148,
+        "significativo": true
+      }
+    },
+    "tiempo_cpu_ms": {
+      "astar": {
+        "n": 1000,
+        "media": 1.140625,
+        "mediana": 0.0,
+        "desviacion": 4.066666695512111,
+        "minimo": 0.0,
+        "maximo": 15.625,
+        "p25": 0.0,
+        "p75": 0.0,
+        "ic95_inferior": 0.890625,
+        "ic95_superior": 1.40625
+      },
+      "codicioso": {
+        "n": 1000,
+        "media": 0.359375,
+        "mediana": 0.0,
+        "desviacion": 2.3434110949500377,
+        "minimo": 0.0,
+        "maximo": 15.625,
+        "p25": 0.0,
+        "p75": 0.0,
+        "ic95_inferior": 0.21875,
+        "ic95_superior": 0.515625
+      },
+      "diferencia_codicioso_menos_astar": {
+        "n": 1000,
+        "media": -0.78125,
+        "mediana": 0.0,
+        "desviacion": 4.7287660563741065,
+        "minimo": -15.625,
+        "maximo": 15.625,
+        "p25": 0.0,
+        "p75": 0.0,
+        "ic95_inferior": -1.078125,
+        "ic95_superior": -0.5
+      },
+      "signos": {
+        "codicioso_menor": 72,
+        "empates": 906,
+        "codicioso_mayor": 22,
+        "no_empatados": 94,
+        "p": 2.2605981543610277e-07,
+        "p_bonferroni": 1.5824187080527193e-06,
+        "significativo": true
+      }
+    },
+    "tiempo_pared_ms": {
+      "astar": {
+        "n": 1000,
+        "media": 1.1932466992875561,
+        "mediana": 0.760349998017773,
+        "desviacion": 1.316103040185788,
+        "minimo": 0.08280001929961145,
+        "maximo": 13.745500007644296,
+        "p25": 0.38365000364137813,
+        "p75": 1.5179250040091574,
+        "ic95_inferior": 1.1157491668804143,
+        "ic95_superior": 1.2774223489963332
+      },
+      "codicioso": {
+        "n": 1000,
+        "media": 0.3953670001938008,
+        "mediana": 0.3371500060893595,
+        "desviacion": 0.22925511169784404,
+        "minimo": 0.09970000246539712,
+        "maximo": 2.039699989836663,
+        "p25": 0.23947498993948102,
+        "p75": 0.4792249819729477,
+        "ic95_inferior": 0.3813049004616914,
+        "ic95_superior": 0.4099133694107877
+      },
+      "diferencia_codicioso_menos_astar": {
+        "n": 1000,
+        "media": -0.7978796990937553,
+        "mediana": -0.38839998887851834,
+        "desviacion": 1.2723184569316224,
+        "minimo": -13.090200023725629,
+        "maximo": 1.7621000006329268,
+        "p25": -1.0941750078927726,
+        "p75": -0.08237499423557892,
+        "ic95_inferior": -0.8783323821720841,
+        "ic95_superior": -0.720487636080361
+      },
+      "signos": {
+        "codicioso_menor": 858,
+        "empates": 0,
+        "codicioso_mayor": 142,
+        "no_empatados": 1000,
+        "p": 2.2391998343607853e-125,
+        "p_bonferroni": 1.5674398840525498e-124,
+        "significativo": true
+      }
+    },
+    "memoria_max_nodos": {
+      "astar": {
+        "n": 1000,
+        "media": 235.107,
+        "mediana": 152.0,
+        "desviacion": 254.10886814093655,
+        "minimo": 16.0,
+        "maximo": 2688.0,
+        "p25": 75.0,
+        "p75": 306.25,
+        "ic95_inferior": 219.7699,
+        "ic95_superior": 251.6072
+      },
+      "codicioso": {
+        "n": 1000,
+        "media": 77.622,
+        "mediana": 67.5,
+        "desviacion": 38.678406574407056,
+        "minimo": 16.0,
+        "maximo": 225.0,
+        "p25": 48.0,
+        "p75": 98.0,
+        "ic95_inferior": 75.222775,
+        "ic95_superior": 80.00602500000001
+      },
+      "diferencia_codicioso_menos_astar": {
+        "n": 1000,
+        "media": -157.485,
+        "mediana": -78.0,
+        "desviacion": 243.03757536240778,
+        "minimo": -2583.0,
+        "maximo": 133.0,
+        "p25": -212.0,
+        "p75": -13.0,
+        "ic95_inferior": -172.76465,
+        "ic95_superior": -142.53070000000002
+      },
+      "signos": {
+        "codicioso_menor": 856,
+        "empates": 41,
+        "codicioso_mayor": 103,
+        "no_empatados": 959,
+        "p": 2.147145411611224e-148,
+        "p_bonferroni": 1.503001788127857e-147,
+        "significativo": true
+      }
+    },
+    "rss_max_muestreado_mb": {
+      "astar": {
+        "n": 1000,
+        "media": 29.45019921875,
+        "mediana": 29.56640625,
+        "desviacion": 0.20177867651655454,
+        "minimo": 28.82421875,
+        "maximo": 29.59765625,
+        "p25": 29.20703125,
+        "p75": 29.578125,
+        "ic95_inferior": 29.437980371093747,
+        "ic95_superior": 29.46250029296875
+      },
+      "codicioso": {
+        "n": 1000,
+        "media": 28.98687890625,
+        "mediana": 28.984375,
+        "desviacion": 0.04394325857520817,
+        "minimo": 28.71484375,
+        "maximo": 29.0625,
+        "p25": 28.953125,
+        "p75": 29.01953125,
+        "ic95_inferior": 28.98417158203125,
+        "ic95_superior": 28.98956259765625
+      },
+      "diferencia_codicioso_menos_astar": {
+        "n": 1000,
+        "media": -0.4633203125,
+        "mediana": -0.54296875,
+        "desviacion": 0.18337185574982187,
+        "minimo": -0.63671875,
+        "maximo": 0.00390625,
+        "p25": -0.56640625,
+        "p75": -0.26953125,
+        "ic95_inferior": -0.47439169921874996,
+        "ic95_superior": -0.45169111328125
+      },
+      "signos": {
+        "codicioso_menor": 999,
+        "empates": 0,
+        "codicioso_mayor": 1,
+        "no_empatados": 1000,
+        "p": 1.8683937642434442e-298,
+        "p_bonferroni": 1.307875634970411e-297,
+        "significativo": true
+      }
+    }
+  },
+  "calidad": {
+    "exito_astar": {
+      "n": 1000,
+      "media": 1.0,
+      "mediana": 1.0,
+      "desviacion": 0.0,
+      "minimo": 1.0,
+      "maximo": 1.0,
+      "p25": 1.0,
+      "p75": 1.0,
+      "ic95_inferior": 0.9961732415144449,
+      "ic95_superior": 1.0
+    },
+    "exito_codicioso": {
+      "n": 1000,
+      "media": 1.0,
+      "mediana": 1.0,
+      "desviacion": 0.0,
+      "minimo": 1.0,
+      "maximo": 1.0,
+      "p25": 1.0,
+      "p75": 1.0,
+      "ic95_inferior": 0.9961732415144449,
+      "ic95_superior": 1.0
+    },
+    "optimalidad_codicioso": {
+      "n": 1000,
+      "media": 0.352,
+      "mediana": 0.0,
+      "desviacion": 0.47783294604320065,
+      "minimo": 0.0,
+      "maximo": 1.0,
+      "p25": 0.0,
+      "p75": 1.0,
+      "ic95_inferior": 0.32301658754166684,
+      "ic95_superior": 0.3821161329700574
+    },
+    "optimas_codicioso": 352,
+    "exceso_movimientos": {
+      "n": 1000,
+      "media": 5.504,
+      "mediana": 4.0,
+      "desviacion": 6.143592412239579,
+      "minimo": 0.0,
+      "maximo": 34.0,
+      "p25": 0.0,
+      "p75": 10.0,
+      "ic95_inferior": 5.124,
+      "ic95_superior": 5.892
+    },
+    "exceso_relativo_porcentaje": {
+      "n": 1000,
+      "media": 24.37781997557411,
+      "mediana": 16.666666666666675,
+      "desviacion": 27.259447876809464,
+      "minimo": 0.0,
+      "maximo": 141.66666666666666,
+      "p25": 0.0,
+      "p75": 40.416666666666664,
+      "ic95_inferior": 22.681822002138503,
+      "ic95_superior": 26.091231402246066
+    }
+  },
+  "seleccion_previa": {
+    "algoritmo": "astar",
+    "heuristica": "H5",
+    "peso": null,
+    "bloques_comunes": 1000,
+    "criterio": "exito_desc, mediana_expandidos, mediana_cpu, mediana_memoria",
+    "orden": [
+      "H5",
+      "H4",
+      "H3",
+      "H2",
+      "H6 w=0.75",
+      "H6 w=0.5",
+      "H6 w=0.25",
+      "H1"
+    ]
+  },
+  "nota": "Análisis exploratorio posterior sobre la muestra usada para seleccionar H; signos bilaterales, siete comparaciones Bonferroni. Sin nuevas búsquedas.",
+  "versiones": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "sha256": {
+    "resultados\\experimento1\\resultados.csv": "d416b125bbb6e10ad666f3a5235cf0b6b33afd43ff178f240469299711c8d4ef",
+    "resultados\\experimento1\\instancias.json": "bee9c38c3a70cf49f02c1cf97fd66bfcc1089e331f2d2bf0b976bc0ed81cc209",
+    "C:\\Users\\elgua\\Downloads\\INTELIGENCIA-ARTIFICAL\\comparar_algoritmos.py": "89cffd51ee03fbda26c2ba4f1a8952f119d13d30af2657243ba4f4241e1fd576",
+    "analizar.py": "ed449927ecf79f9c76c047dea9fe318aef4e38e6a1ffd1442246e707f2b8986d",
+    "documentar_resultados.py": "166e1336d5ad3f64543fb6c1ef2eed6640e38d7f1538c7e05dee375df5900698",
+    "resultados\\analisis1\\analisis.json": "e253eb1a18446bf88b35b2123959d538e58bfea0deab22d01ef35b1abca580a8",
+    "resultados\\analisis1\\descriptivas.csv": "06575dbdbc7d34158ed110b66cc23a9e351b0ce9306469ad887ed59408c2d5d1"
+  }
+}

@@ -1,0 +1,43 @@
+[
+  {
+    "n": 3,
+    "terminaciones": {
+      "resuelto": 100
+    },
+    "ic95_exito_porcentaje": [
+      96.30065017930143,
+      100.0
+    ]
+  },
+  {
+    "n": 4,
+    "terminaciones": {
+      "limite_tiempo": 94,
+      "resuelto": 6
+    },
+    "ic95_exito_porcentaje": [
+      2.7786123963188185,
+      12.47681544589592
+    ]
+  },
+  {
+    "n": 5,
+    "terminaciones": {
+      "limite_tiempo": 100
+    },
+    "ic95_exito_porcentaje": [
+      0.0,
+      3.699349820698568
+    ]
+  },
+  {
+    "n": 6,
+    "terminaciones": {
+      "limite_tiempo": 100
+    },
+    "ic95_exito_porcentaje": [
+      0.0,
+      3.699349820698568
+    ]
+  }
+]

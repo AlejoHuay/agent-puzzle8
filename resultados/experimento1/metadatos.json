@@ -1,0 +1,318 @@
+{
+  "tipo": "experimento",
+  "argumentos": {
+    "comando": "ejecutar",
+    "instancias": "resultados/instancias_3.json",
+    "salida": "resultados/experimento1",
+    "experimento": 1,
+    "heuristica": null,
+    "peso": null,
+    "segundos": 300.0,
+    "segundos_preparacion": 300,
+    "memoria_mb": 1024.0,
+    "nodos": 2000000,
+    "max_estados_patron": 350000,
+    "semilla_orden": 20260912,
+    "validacion": false
+  },
+  "python": "3.13.15 (tags/v3.13.15:4061bc4, Aug  5 2026, 13:05:39) [MSC v.1944 64 bit (AMD64)]",
+  "plataforma": "Windows-11-10.0.26200-SP0",
+  "cpu": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
+  "cpu_logicos": 8,
+  "ram_bytes": 16805126144,
+  "instancias_sha256": "bee9c38c3a70cf49f02c1cf97fd66bfcc1089e331f2d2bf0b976bc0ed81cc209",
+  "fuentes_sha256": {
+    "C:\\Users\\elgua\\Downloads\\INTELIGENCIA-ARTIFICAL\\experimentos.py": "95333fc8620b79a45b0eab50d6264be49b3b43944ed234eac6e796ed2ab5a8c6",
+    "puzzle\\__init__.py": "0bae74ebedb7cc74f71bd86df9d0b22489aad34f7ea231909e5aedc4b31c177a",
+    "puzzle\\busqueda.py": "82ffa3bbae576f95165efeaef4c3b1fae67cbabce5e18579071603b98e14564a",
+    "puzzle\\heuristicas.py": "df29acded750162025d508f50d702862706e17e61375385a217d7515377b5dd2",
+    "puzzle\\problema.py": "1a0558e6dbaf8a1e62a8a9a375a82a97d38b4d38b2bf1ced7f2205b2ea84cc4d"
+  },
+  "orden_configuraciones": [
+    [
+      "astar",
+      "H3",
+      null
+    ],
+    [
+      "astar",
+      "H5",
+      null
+    ],
+    [
+      "codicioso",
+      "H6",
+      0.25
+    ],
+    [
+      "codicioso",
+      "H5",
+      null
+    ],
+    [
+      "codicioso",
+      "H6",
+      0.5
+    ],
+    [
+      "astar",
+      "H6",
+      0.25
+    ],
+    [
+      "codicioso",
+      "H1",
+      null
+    ],
+    [
+      "codicioso",
+      "H4",
+      null
+    ],
+    [
+      "astar",
+      "H6",
+      0.75
+    ],
+    [
+      "codicioso",
+      "H2",
+      null
+    ],
+    [
+      "astar",
+      "H1",
+      null
+    ],
+    [
+      "codicioso",
+      "H6",
+      0.75
+    ],
+    [
+      "astar",
+      "H4",
+      null
+    ],
+    [
+      "astar",
+      "H6",
+      0.5
+    ],
+    [
+      "codicioso",
+      "H3",
+      null
+    ],
+    [
+      "astar",
+      "H2",
+      null
+    ]
+  ],
+  "preparacion": [
+    {
+      "evento": "preparado",
+      "algoritmo": "astar",
+      "heuristica": "H3",
+      "peso": null,
+      "segundos": 1.1999800335615873e-06,
+      "grupos": [],
+      "entradas": 0
+    },
+    {
+      "evento": "preparado",
+      "algoritmo": "astar",
+      "heuristica": "H5",
+      "peso": null,
+      "segundos": 0.04975859998376109,
+      "grupos": [
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          5,
+          6,
+          7,
+          8
+        ]
+      ],
+      "entradas": 30240
+    },
+    {
+      "evento": "preparado",
+      "algoritmo": "codicioso",
+      "heuristica": "H6",
+      "peso": 0.25,
+      "segundos": 2.00001522898674e-06,
+      "grupos": [],
+      "entradas": 0
+    },
+    {
+      "evento": "preparado",
+      "algoritmo": "codicioso",
+      "heuristica": "H5",
+      "peso": null,
+      "segundos": 0.048187000007601455,
+      "grupos": [
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          5,
+          6,
+          7,
+          8
+        ]
+      ],
+      "entradas": 30240
+    },
+    {
+      "evento": "preparado",
+      "algoritmo": "codicioso",
+      "heuristica": "H6",
+      "peso": 0.5,
+      "segundos": 1.300009898841381e-06,
+      "grupos": [],
+      "entradas": 0
+    },
+    {
+      "evento": "preparado",
+      "algoritmo": "astar",
+      "heuristica": "H6",
+      "peso": 0.25,
+      "segundos": 1.400010660290718e-06,
+      "grupos": [],
+      "entradas": 0
+    },
+    {
+      "evento": "preparado",
+      "algoritmo": "codicioso",
+      "heuristica": "H1",
+      "peso": null,
+      "segundos": 1.5999830793589354e-06,
+      "grupos": [],
+      "entradas": 0
+    },
+    {
+      "evento": "preparado",
+      "algoritmo": "codicioso",
+      "heuristica": "H4",
+      "peso": null,
+      "segundos": 0.012317800021264702,
+      "grupos": [
+        [
+          1,
+          4,
+          2
+        ],
+        [
+          3,
+          6,
+          2
+        ],
+        [
+          7,
+          4,
+          8
+        ]
+      ],
+      "entradas": 9072
+    },
+    {
+      "evento": "preparado",
+      "algoritmo": "astar",
+      "heuristica": "H6",
+      "peso": 0.75,
+      "segundos": 1.00000761449337e-06,
+      "grupos": [],
+      "entradas": 0
+    },
+    {
+      "evento": "preparado",
+      "algoritmo": "codicioso",
+      "heuristica": "H2",
+      "peso": null,
+      "segundos": 1.3999815564602613e-06,
+      "grupos": [],
+      "entradas": 0
+    },
+    {
+      "evento": "preparado",
+      "algoritmo": "astar",
+      "heuristica": "H1",
+      "peso": null,
+      "segundos": 1.3999815564602613e-06,
+      "grupos": [],
+      "entradas": 0
+    },
+    {
+      "evento": "preparado",
+      "algoritmo": "codicioso",
+      "heuristica": "H6",
+      "peso": 0.75,
+      "segundos": 1.1999800335615873e-06,
+      "grupos": [],
+      "entradas": 0
+    },
+    {
+      "evento": "preparado",
+      "algoritmo": "astar",
+      "heuristica": "H4",
+      "peso": null,
+      "segundos": 0.028533500008052215,
+      "grupos": [
+        [
+          1,
+          4,
+          2
+        ],
+        [
+          3,
+          6,
+          2
+        ],
+        [
+          7,
+          4,
+          8
+        ]
+      ],
+      "entradas": 9072
+    },
+    {
+      "evento": "preparado",
+      "algoritmo": "astar",
+      "heuristica": "H6",
+      "peso": 0.5,
+      "segundos": 1.400010660290718e-06,
+      "grupos": [],
+      "entradas": 0
+    },
+    {
+      "evento": "preparado",
+      "algoritmo": "codicioso",
+      "heuristica": "H3",
+      "peso": null,
+      "segundos": 1.6999838408082724e-06,
+      "grupos": [],
+      "entradas": 0
+    },
+    {
+      "evento": "preparado",
+      "algoritmo": "astar",
+      "heuristica": "H2",
+      "peso": null,
+      "segundos": 3.3999967854470015e-06,
+      "grupos": [],
+      "entradas": 0
+    }
+  ],
+  "completo": true
+}

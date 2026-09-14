@@ -1,0 +1,589 @@
+{
+  "tipo": "analisis_escalabilidad",
+  "heuristica": [
+    "astar",
+    "H5",
+    null
+  ],
+  "protocolo": [
+    "permutacion",
+    null,
+    5.0,
+    1024.0,
+    2000000,
+    350000,
+    300
+  ],
+  "tamanos": [
+    {
+      "n": 3,
+      "intentos": 100,
+      "resueltos": 100,
+      "tasa_exito": 1.0,
+      "metricas_resueltos": {
+        "profundidad": {
+          "n": 100,
+          "media": 21.97,
+          "mediana": 22.0,
+          "desviacion": 3.5117551512632885,
+          "minimo": 12.0,
+          "maximo": 29.0,
+          "p25": 20.0,
+          "p75": 24.0,
+          "ic95_inferior": 21.28,
+          "ic95_superior": 22.620249999999995
+        },
+        "expandidos": {
+          "n": 100,
+          "media": 146.66,
+          "mediana": 81.0,
+          "desviacion": 171.95296632004528,
+          "minimo": 12.0,
+          "maximo": 970.0,
+          "p25": 42.75,
+          "p75": 188.25,
+          "ic95_inferior": 114.5685,
+          "ic95_superior": 182.26374999999993
+        },
+        "generados": {
+          "n": 100,
+          "media": 409.31,
+          "mediana": 225.5,
+          "desviacion": 478.64975691833354,
+          "minimo": 34.0,
+          "maximo": 2699.0,
+          "p25": 120.0,
+          "p75": 518.5,
+          "ic95_inferior": 320.54525,
+          "ic95_superior": 508.65149999999994
+        },
+        "tiempo_cpu_ms": {
+          "n": 100,
+          "media": 2.8125,
+          "mediana": 0.0,
+          "desviacion": 6.033170619771393,
+          "minimo": 0.0,
+          "maximo": 15.625,
+          "p25": 0.0,
+          "p75": 0.0,
+          "ic95_inferior": 1.71875,
+          "ic95_superior": 4.0625
+        },
+        "tiempo_pared_ms": {
+          "n": 100,
+          "media": 2.7041079979971983,
+          "mediana": 1.5347999869845808,
+          "desviacion": 3.216081609465084,
+          "minimo": 0.11990001075901091,
+          "maximo": 17.025800014380366,
+          "p25": 0.7916249887784943,
+          "p75": 3.323050004837569,
+          "ic95_inferior": 2.107540049684758,
+          "ic95_superior": 3.3669197986819195
+        },
+        "memoria_max_nodos": {
+          "n": 100,
+          "media": 255.35,
+          "mediana": 145.5,
+          "desviacion": 293.1086734377617,
+          "minimo": 24.0,
+          "maximo": 1651.0,
+          "p25": 75.75,
+          "p75": 316.75,
+          "ic95_inferior": 200.769,
+          "ic95_superior": 315.94199999999995
+        },
+        "rss_max_muestreado_mb": {
+          "n": 100,
+          "media": 28.925859375,
+          "mediana": 28.984375,
+          "desviacion": 0.11885775717128655,
+          "minimo": 28.515625,
+          "maximo": 29.01171875,
+          "p25": 28.92578125,
+          "p75": 29.00390625,
+          "ic95_inferior": 28.902264648437498,
+          "ic95_superior": 28.948359375
+        }
+      },
+      "consumo_intentos": {
+        "expandidos": {
+          "n": 100,
+          "media": 146.66,
+          "mediana": 81.0,
+          "desviacion": 171.95296632004528,
+          "minimo": 12.0,
+          "maximo": 970.0,
+          "p25": 42.75,
+          "p75": 188.25,
+          "ic95_inferior": 114.5685,
+          "ic95_superior": 182.26374999999993
+        },
+        "generados": {
+          "n": 100,
+          "media": 409.31,
+          "mediana": 225.5,
+          "desviacion": 478.64975691833354,
+          "minimo": 34.0,
+          "maximo": 2699.0,
+          "p25": 120.0,
+          "p75": 518.5,
+          "ic95_inferior": 320.54525,
+          "ic95_superior": 508.65149999999994
+        },
+        "tiempo_cpu_ms": {
+          "n": 100,
+          "media": 2.8125,
+          "mediana": 0.0,
+          "desviacion": 6.033170619771393,
+          "minimo": 0.0,
+          "maximo": 15.625,
+          "p25": 0.0,
+          "p75": 0.0,
+          "ic95_inferior": 1.71875,
+          "ic95_superior": 4.0625
+        },
+        "tiempo_pared_ms": {
+          "n": 100,
+          "media": 2.7041079979971983,
+          "mediana": 1.5347999869845808,
+          "desviacion": 3.216081609465084,
+          "minimo": 0.11990001075901091,
+          "maximo": 17.025800014380366,
+          "p25": 0.7916249887784943,
+          "p75": 3.323050004837569,
+          "ic95_inferior": 2.107540049684758,
+          "ic95_superior": 3.3669197986819195
+        },
+        "memoria_max_nodos": {
+          "n": 100,
+          "media": 255.35,
+          "mediana": 145.5,
+          "desviacion": 293.1086734377617,
+          "minimo": 24.0,
+          "maximo": 1651.0,
+          "p25": 75.75,
+          "p75": 316.75,
+          "ic95_inferior": 200.769,
+          "ic95_superior": 315.94199999999995
+        },
+        "rss_max_muestreado_mb": {
+          "n": 100,
+          "media": 28.925859375,
+          "mediana": 28.984375,
+          "desviacion": 0.11885775717128655,
+          "minimo": 28.515625,
+          "maximo": 29.01171875,
+          "p25": 28.92578125,
+          "p75": 29.00390625,
+          "ic95_inferior": 28.902264648437498,
+          "ic95_superior": 28.948359375
+        }
+      },
+      "fuente": "resultados/escalabilidad_3"
+    },
+    {
+      "n": 4,
+      "intentos": 100,
+      "resueltos": 6,
+      "tasa_exito": 0.06,
+      "metricas_resueltos": {
+        "profundidad": {
+          "n": 6,
+          "media": 41.666666666666664,
+          "mediana": 42.0,
+          "desviacion": 3.265986323710904,
+          "minimo": 38.0,
+          "maximo": 46.0,
+          "p25": 38.75,
+          "p75": 43.75,
+          "ic95_inferior": 39.333333333333336,
+          "ic95_superior": 44.0
+        },
+        "expandidos": {
+          "n": 6,
+          "media": 75574.83333333333,
+          "mediana": 84661.5,
+          "desviacion": 50958.14290343268,
+          "minimo": 14624.0,
+          "maximo": 145916.0,
+          "p25": 34131.75,
+          "p75": 100888.5,
+          "ic95_inferior": 38614.833333333336,
+          "ic95_superior": 111889.83333333333
+        },
+        "generados": {
+          "n": 6,
+          "media": 229528.16666666666,
+          "mediana": 256598.0,
+          "desviacion": 155520.07788503278,
+          "minimo": 43719.0,
+          "maximo": 444110.0,
+          "p25": 102274.75,
+          "p75": 308132.25,
+          "ic95_inferior": 116681.0,
+          "ic95_superior": 340373.0
+        },
+        "tiempo_cpu_ms": {
+          "n": 6,
+          "media": 2549.4791666666665,
+          "mediana": 2828.125,
+          "desviacion": 1616.0938834437084,
+          "minimo": 609.375,
+          "maximo": 4750.0,
+          "p25": 1242.1875,
+          "p75": 3382.8125,
+          "ic95_inferior": 1369.7916666666667,
+          "ic95_superior": 3688.0208333333258
+        },
+        "tiempo_pared_ms": {
+          "n": 6,
+          "media": 2605.5693833332043,
+          "mediana": 2903.909749991726,
+          "desviacion": 1659.643773876337,
+          "minimo": 616.5993000031449,
+          "maximo": 4857.809100009035,
+          "p25": 1257.0077500058687,
+          "p75": 3458.3384249926894,
+          "ic95_inferior": 1397.6851666666334,
+          "ic95_superior": 3774.8626962527173
+        },
+        "memoria_max_nodos": {
+          "n": 6,
+          "media": 146095.0,
+          "mediana": 162889.0,
+          "desviacion": 98890.81710047703,
+          "minimo": 28048.0,
+          "maximo": 281778.0,
+          "p25": 64926.0,
+          "p75": 197243.0,
+          "ic95_inferior": 74204.66666666667,
+          "ic95_superior": 216775.66666666666
+        },
+        "rss_max_muestreado_mb": {
+          "n": 6,
+          "media": 142.43229166666666,
+          "mediana": 142.84765625,
+          "desviacion": 6.645856242205161,
+          "minimo": 131.98046875,
+          "maximo": 151.0234375,
+          "p25": 139.78515625,
+          "p75": 146.0595703125,
+          "ic95_inferior": 137.2916015625,
+          "ic95_superior": 146.82096354166666
+        }
+      },
+      "consumo_intentos": {
+        "expandidos": {
+          "n": 100,
+          "media": 152496.0,
+          "mediana": 153975.5,
+          "desviacion": 34198.402266713565,
+          "minimo": 14624.0,
+          "maximo": 264134.0,
+          "p25": 140584.75,
+          "p75": 170896.25,
+          "ic95_inferior": 145660.99375,
+          "ic95_superior": 158918.83599999998
+        },
+        "generados": {
+          "n": 100,
+          "media": 463355.58,
+          "mediana": 466804.5,
+          "desviacion": 103498.70220073273,
+          "minimo": 43719.0,
+          "maximo": 805800.0,
+          "p25": 428092.25,
+          "p75": 517142.0,
+          "ic95_inferior": 442542.50375000003,
+          "ic95_superior": 482769.352
+        },
+        "tiempo_cpu_ms": {
+          "n": 100,
+          "media": 4729.21875,
+          "mediana": 4859.375,
+          "desviacion": 665.2152427952618,
+          "minimo": 609.375,
+          "maximo": 5125.0,
+          "p25": 4828.125,
+          "p75": 4906.25,
+          "ic95_inferior": 4585.6171875,
+          "ic95_superior": 4843.12890625
+        },
+        "tiempo_pared_ms": {
+          "n": 100,
+          "media": 4868.335607001209,
+          "mediana": 5000.055500000599,
+          "desviacion": 686.0150125401026,
+          "minimo": 616.5993000031449,
+          "maximo": 5222.788099985337,
+          "p25": 5000.029050017474,
+          "p75": 5000.096400006441,
+          "ic95_inferior": 4718.721047075553,
+          "ic95_superior": 4986.08315810113
+        },
+        "memoria_max_nodos": {
+          "n": 100,
+          "media": 295132.3,
+          "mediana": 298175.5,
+          "desviacion": 65532.58197440662,
+          "minimo": 28048.0,
+          "maximo": 513233.0,
+          "p25": 272500.75,
+          "p75": 331048.75,
+          "ic95_inferior": 281953.98725,
+          "ic95_superior": 307298.312
+        },
+        "rss_max_muestreado_mb": {
+          "n": 100,
+          "media": 154.5696484375,
+          "mediana": 153.2265625,
+          "desviacion": 15.197913513227634,
+          "minimo": 131.54296875,
+          "maximo": 219.19140625,
+          "p25": 144.8154296875,
+          "p75": 160.9462890625,
+          "ic95_inferior": 151.67169726562497,
+          "ic95_superior": 157.57608398437497
+        }
+      },
+      "fuente": "resultados/escalabilidad_4"
+    },
+    {
+      "n": 5,
+      "intentos": 100,
+      "resueltos": 0,
+      "tasa_exito": 0.0,
+      "metricas_resueltos": {
+        "profundidad": {
+          "n": 0
+        },
+        "expandidos": {
+          "n": 0
+        },
+        "generados": {
+          "n": 0
+        },
+        "tiempo_cpu_ms": {
+          "n": 0
+        },
+        "tiempo_pared_ms": {
+          "n": 0
+        },
+        "memoria_max_nodos": {
+          "n": 0
+        },
+        "rss_max_muestreado_mb": {
+          "n": 0
+        }
+      },
+      "consumo_intentos": {
+        "expandidos": {
+          "n": 100,
+          "media": 82101.37,
+          "mediana": 69986.5,
+          "desviacion": 23524.15736880329,
+          "minimo": 57437.0,
+          "maximo": 148851.0,
+          "p25": 66253.75,
+          "p75": 96544.75,
+          "ic95_inferior": 77833.02625000001,
+          "ic95_superior": 86777.68474999999
+        },
+        "generados": {
+          "n": 100,
+          "media": 262303.49,
+          "mediana": 222454.0,
+          "desviacion": 74248.40408889185,
+          "minimo": 190733.0,
+          "maximo": 460701.0,
+          "p25": 214206.25,
+          "p75": 310401.25,
+          "ic95_inferior": 248652.978,
+          "ic95_superior": 277177.009
+        },
+        "tiempo_cpu_ms": {
+          "n": 100,
+          "media": 4753.125,
+          "mediana": 4781.25,
+          "desviacion": 118.3105905375057,
+          "minimo": 4250.0,
+          "maximo": 4984.375,
+          "p25": 4671.875,
+          "p75": 4843.75,
+          "ic95_inferior": 4730.15625,
+          "ic95_superior": 4775.16015625
+        },
+        "tiempo_pared_ms": {
+          "n": 100,
+          "media": 5002.105462998443,
+          "mediana": 5000.088599990704,
+          "desviacion": 10.002850724024404,
+          "minimo": 5000.016999983927,
+          "maximo": 5063.621999986935,
+          "p25": 5000.053300005675,
+          "p75": 5000.128549982037,
+          "ic95_inferior": 5000.492008548732,
+          "ic95_superior": 5004.223225699963
+        },
+        "memoria_max_nodos": {
+          "n": 100,
+          "media": 176035.72,
+          "mediana": 149309.0,
+          "desviacion": 49470.98630798101,
+          "minimo": 130883.0,
+          "maximo": 308632.0,
+          "p25": 143355.75,
+          "p75": 210036.75,
+          "ic95_inferior": 166918.60625,
+          "ic95_superior": 186029.54075
+        },
+        "rss_max_muestreado_mb": {
+          "n": 100,
+          "media": 360.716328125,
+          "mediana": 349.099609375,
+          "desviacion": 20.065999779526045,
+          "minimo": 342.93359375,
+          "maximo": 410.921875,
+          "p25": 347.1435546875,
+          "p75": 377.55078125,
+          "ic95_inferior": 357.048232421875,
+          "ic95_superior": 364.7657236328125
+        }
+      },
+      "fuente": "resultados/escalabilidad_5"
+    },
+    {
+      "n": 6,
+      "intentos": 100,
+      "resueltos": 0,
+      "tasa_exito": 0.0,
+      "metricas_resueltos": {
+        "profundidad": {
+          "n": 0
+        },
+        "expandidos": {
+          "n": 0
+        },
+        "generados": {
+          "n": 0
+        },
+        "tiempo_cpu_ms": {
+          "n": 0
+        },
+        "tiempo_pared_ms": {
+          "n": 0
+        },
+        "memoria_max_nodos": {
+          "n": 0
+        },
+        "rss_max_muestreado_mb": {
+          "n": 0
+        }
+      },
+      "consumo_intentos": {
+        "expandidos": {
+          "n": 100,
+          "media": 109567.73,
+          "mediana": 116865.0,
+          "desviacion": 33413.86920501121,
+          "minimo": 42564.0,
+          "maximo": 154236.0,
+          "p25": 80958.75,
+          "p75": 139528.75,
+          "ic95_inferior": 102732.91425,
+          "ic95_superior": 115989.72225
+        },
+        "generados": {
+          "n": 100,
+          "media": 357832.61,
+          "mediana": 380227.5,
+          "desviacion": 108863.86042597592,
+          "minimo": 135853.0,
+          "maximo": 478781.0,
+          "p25": 260925.5,
+          "p75": 462068.5,
+          "ic95_inferior": 335758.67949999997,
+          "ic95_superior": 378959.16875
+        },
+        "tiempo_cpu_ms": {
+          "n": 100,
+          "media": 4908.4375,
+          "mediana": 4937.5,
+          "desviacion": 98.019872270109,
+          "minimo": 4421.875,
+          "maximo": 5078.125,
+          "p25": 4875.0,
+          "p75": 4968.75,
+          "ic95_inferior": 4887.5,
+          "ic95_superior": 4926.875
+        },
+        "tiempo_pared_ms": {
+          "n": 100,
+          "media": 5004.370195000083,
+          "mediana": 5000.0588500115555,
+          "desviacion": 19.71344859848924,
+          "minimo": 5000.008999981219,
+          "maximo": 5118.871099984972,
+          "p25": 5000.030750001315,
+          "p75": 5000.134024994622,
+          "ic95_inferior": 5001.043421675939,
+          "ic95_superior": 5008.711920598202
+        },
+        "memoria_max_nodos": {
+          "n": 100,
+          "media": 245092.43,
+          "mediana": 260192.0,
+          "desviacion": 74634.45043559531,
+          "minimo": 92418.0,
+          "maximo": 329649.0,
+          "p25": 178877.75,
+          "p75": 315325.75,
+          "ic95_inferior": 230002.5265,
+          "ic95_superior": 259691.61975
+        },
+        "rss_max_muestreado_mb": {
+          "n": 100,
+          "media": 213.101171875,
+          "mediana": 220.654296875,
+          "desviacion": 33.693617090944606,
+          "minimo": 138.8359375,
+          "maximo": 251.625,
+          "p25": 189.21875,
+          "p75": 245.3076171875,
+          "ic95_inferior": 206.21993554687498,
+          "ic95_superior": 219.7336396484375
+        }
+      },
+      "fuente": "resultados/escalabilidad_6"
+    }
+  ],
+  "N_max_observado": 3,
+  "modelos": {
+    "expandidos": {
+      "estado": "datos_insuficientes",
+      "puntos": 1
+    },
+    "tiempo_cpu_ms": {
+      "estado": "datos_insuficientes",
+      "puntos": 1
+    },
+    "tiempo_pared_ms": {
+      "estado": "datos_insuficientes",
+      "puntos": 1
+    }
+  },
+  "nota": "Límite observado del protocolo. Ajustes solo con >=4 tamaños totalmente resueltos; no se imputan tiempos censurados.",
+  "versiones": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "sha256_codigo_analisis": "ed449927ecf79f9c76c047dea9fe318aef4e38e6a1ffd1442246e707f2b8986d",
+  "sha256_csv": {
+    "resultados/escalabilidad_3": "3136941f34c89b1febe4bca8e4163edc519343ab2968e745acb44b789ed272c3",
+    "resultados/escalabilidad_4": "bb577dacd32ddcb266a712701d5f88daed7b8add7df67a231979bd0683e6c737",
+    "resultados/escalabilidad_5": "1807397c6d728fcfaf7b18ed7991a950cb085b2343728b5ffad6c07275784cd5",
+    "resultados/escalabilidad_6": "1b3e9d54ca560902447b52fc844e1454264ad7ff804d548b851b49df8196d6ea"
+  }
+}
