@@ -1,0 +1,24 @@
+Fase 3: verificación del código, no resultados experimentales.
+
+Comando ejecutado:
+.venv/Scripts/python.exe -m unittest discover -s pruebas -v
+
+Salida final observada:
+Ran 18 tests in 19.108s
+OK
+
+Cobertura: 14 pruebas funcionales y 4 pruebas del análisis.
+La ejecución incluyó procesos reales del asistente y cancelación.
+
+Verificación adicional del lote pequeño:
+32 registros: completos, sin duplicados, resueltos y hashes correctos.
+
+Verificación de dependencias:
+.venv/Scripts/python.exe -m pip check
+No broken requirements found.
+
+Validación exhaustiva: consultar heuristicas.json y reproducir con
+.venv/Scripts/python.exe validar_heuristicas.py
+
+Los CSV de integracion están marcados como validacion y analizar.py los rechaza.
+No se han ejecutado los experimentos formales de la Fase 4.

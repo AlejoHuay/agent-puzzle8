@@ -1,0 +1,13 @@
+{
+  "fase": 5,
+  "seccion_guia": "5. Entregables",
+  "lotes_formales": 9,
+  "busquedas_formales": 16800,
+  "figuras_png": 23,
+  "portabilidad_verificador": "aprobada con ruta absoluta original inexistente",
+  "rechazo_hash_incorrecto": "aprobado sin modificar fuentes ni datos",
+  "enlaces_locales_existentes": true,
+  "integridad": "integridad_fase5.json",
+  "alcance": "Auditoria de entregables; no incluye auditoria de rubrica ni creacion del informe formal o presentacion",
+  "cantidad_enlaces_locales_verificados": 40
+}

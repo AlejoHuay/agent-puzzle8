@@ -1,0 +1,31 @@
+{
+  "fase": 8,
+  "sha256_readme_anterior": "941ef50017f3dd40322b47f67f457e3ff3a3a622259d4b606f471242f4abcd82",
+  "secciones_archivadas_sin_cambios": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "tabla_redundante_preservada": true,
+  "lineas_antes": 1611,
+  "lineas_principal": 358,
+  "lineas_complementario": 1286,
+  "calculos_nuevos": 0,
+  "enlaces_locales": "verificados en ambos documentos",
+  "nota": "Separación documental; no modifica datos ni código experimental.",
+  "archivos_experimentales_y_fuentes_sin_cambios": true,
+  "enlaces_verificados": {
+    "README.md": 14,
+    "README_COMPLEMENTARIO.md": 44
+  },
+  "sha256_documentos": {
+    "README.md": "821af5bee83d9d53f73541ef2f995f3ed910fff2aa072d481a48c40ff99c7e7b",
+    "README_COMPLEMENTARIO.md": "7ba505ef575167c0317735d5eff45c21633b5fd60d3e286d7569759e81c2ab5e"
+  }
+}

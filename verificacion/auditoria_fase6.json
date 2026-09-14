@@ -1,0 +1,96 @@
+{
+  "fase": 6,
+  "rubrica_criterios": 6,
+  "descriptivas_revisadas": 112,
+  "metodo_revision_friedman": "formula de sumas de rangos con correccion de empates, sobre CSV originales",
+  "contrastes": {
+    "astar profundidad": {
+      "estadistico_recalculado": 0.0,
+      "correccion_empates": 0.0,
+      "pares_significativos": 0
+    },
+    "astar expandidos": {
+      "estadistico_recalculado": 6977.130368849029,
+      "correccion_empates": 0.9969880952380953,
+      "pares_significativos": 28
+    },
+    "astar generados": {
+      "estadistico_recalculado": 6976.882898696091,
+      "correccion_empates": 0.997,
+      "pares_significativos": 28
+    },
+    "astar tiempo_cpu_ms": {
+      "estadistico_recalculado": 4423.505599506831,
+      "correccion_empates": 0.8110833333333334,
+      "pares_significativos": 27
+    },
+    "astar tiempo_pared_ms": {
+      "estadistico_recalculado": 5828.231,
+      "correccion_empates": 1.0,
+      "pares_significativos": 27
+    },
+    "astar memoria_max_nodos": {
+      "estadistico_recalculado": 6967.975885779772,
+      "correccion_empates": 0.9972380952380953,
+      "pares_significativos": 28
+    },
+    "astar rss_max_muestreado_mb": {
+      "estadistico_recalculado": 6806.810283455752,
+      "correccion_empates": 0.9999880952380953,
+      "pares_significativos": 28
+    },
+    "codicioso profundidad": {
+      "estadistico_recalculado": 3516.867161096507,
+      "correccion_empates": 0.8876666666666667,
+      "pares_significativos": 24
+    },
+    "codicioso expandidos": {
+      "estadistico_recalculado": 5457.997553370113,
+      "correccion_empates": 0.9926190476190476,
+      "pares_significativos": 28
+    },
+    "codicioso generados": {
+      "estadistico_recalculado": 5440.36211545606,
+      "correccion_empates": 0.9933690476190477,
+      "pares_significativos": 28
+    },
+    "codicioso tiempo_cpu_ms": {
+      "estadistico_recalculado": 443.28418596900167,
+      "correccion_empates": 0.357202380952381,
+      "pares_significativos": 19
+    },
+    "codicioso tiempo_pared_ms": {
+      "estadistico_recalculado": 3268.1616566863877,
+      "correccion_empates": 0.9999880952380953,
+      "pares_significativos": 26
+    },
+    "codicioso memoria_max_nodos": {
+      "estadistico_recalculado": 5416.408114329562,
+      "correccion_empates": 0.9929523809523809,
+      "pares_significativos": 28
+    },
+    "codicioso rss_max_muestreado_mb": {
+      "estadistico_recalculado": 6851.230400800648,
+      "correccion_empates": 0.9991904761904762,
+      "pares_significativos": 28
+    }
+  },
+  "suite_pruebas": {
+    "cantidad": 18,
+    "codigo_salida": 0,
+    "estado": "OK",
+    "evidencia": "pruebas_fase6.txt"
+  },
+  "integridad": "integridad_fase6.json",
+  "ganadoras": "ganadoras_fase6.json",
+  "sin_nuevos_experimentos": true,
+  "enlaces_locales_verificados": 44,
+  "rubrica_estados": {
+    "formulacion_heuristicas": "CUMPLIDO",
+    "implementacion_algoritmos": "CUMPLIDO",
+    "diseno_experimental": "CUMPLIDO",
+    "analisis_estadistico": "CUMPLIDO",
+    "escalabilidad": "CUMPLIDO",
+    "calidad_informe_formal": "PARCIAL"
+  }
+}

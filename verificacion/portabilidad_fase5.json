@@ -1,0 +1,84 @@
+{
+  "estado": "verificado",
+  "busquedas": 16800,
+  "lotes": [
+    {
+      "carpeta": "resultados\\experimento1",
+      "filas": 16000,
+      "terminaciones": {
+        "resuelto": 16000
+      },
+      "csv_sha256": "d416b125bbb6e10ad666f3a5235cf0b6b33afd43ff178f240469299711c8d4ef"
+    },
+    {
+      "carpeta": "resultados\\escalabilidad_3",
+      "filas": 100,
+      "terminaciones": {
+        "resuelto": 100
+      },
+      "csv_sha256": "3136941f34c89b1febe4bca8e4163edc519343ab2968e745acb44b789ed272c3"
+    },
+    {
+      "carpeta": "resultados\\escalabilidad_4",
+      "filas": 100,
+      "terminaciones": {
+        "limite_tiempo": 94,
+        "resuelto": 6
+      },
+      "csv_sha256": "bb577dacd32ddcb266a712701d5f88daed7b8add7df67a231979bd0683e6c737"
+    },
+    {
+      "carpeta": "resultados\\escalabilidad_5",
+      "filas": 100,
+      "terminaciones": {
+        "limite_tiempo": 100
+      },
+      "csv_sha256": "1807397c6d728fcfaf7b18ed7991a950cb085b2343728b5ffad6c07275784cd5"
+    },
+    {
+      "carpeta": "resultados\\escalabilidad_6",
+      "filas": 100,
+      "terminaciones": {
+        "limite_tiempo": 100
+      },
+      "csv_sha256": "1b3e9d54ca560902447b52fc844e1454264ad7ff804d548b851b49df8196d6ea"
+    },
+    {
+      "carpeta": "resultados\\cercanos_3",
+      "filas": 100,
+      "terminaciones": {
+        "resuelto": 100
+      },
+      "csv_sha256": "0f1dfc331c389df1af6e63a6b179c228ccb74cd6dd7e6516bb4834ac868cb799"
+    },
+    {
+      "carpeta": "resultados\\cercanos_4",
+      "filas": 100,
+      "terminaciones": {
+        "resuelto": 100
+      },
+      "csv_sha256": "fd6826190a2b68010d54cafd8cb25a04f1e9597ea9648992ca2deb31e52b5b11"
+    },
+    {
+      "carpeta": "resultados\\cercanos_5",
+      "filas": 100,
+      "terminaciones": {
+        "resuelto": 100
+      },
+      "csv_sha256": "1ff55447b01a51e22d52c8821778d1b4d87964439445c7f99dc80d55c8366312"
+    },
+    {
+      "carpeta": "resultados\\cercanos_6",
+      "filas": 100,
+      "terminaciones": {
+        "resuelto": 100
+      },
+      "csv_sha256": "8298740eafb0a692c306a9ad84dae71df2dcf023bf6205accf9dde8007e838fd"
+    }
+  ],
+  "fuentes_experimentales_sin_cambios": true,
+  "instancias_distintas_y_solubles_por_lote": true,
+  "hashes_analisis_correctos": true,
+  "profundidades_Astar_puzzle8_verificadas_BFS": 8000,
+  "sha256_documentar_resultados": "166e1336d5ad3f64543fb6c1ef2eed6640e38d7f1538c7e05dee375df5900698"
+}

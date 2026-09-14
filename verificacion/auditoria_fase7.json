@@ -1,0 +1,13 @@
+{
+  "fase": 7,
+  "busquedas_nuevas": 0,
+  "instancias_pareadas": 1000,
+  "descriptivas_coincidentes_con_fase4": 14,
+  "pruebas_signos_verificadas_por_suma_binomial": 7,
+  "casos_limite_signos": "cuatro comprobaciones aprobadas",
+  "csv_originales_sin_cambios": true,
+  "hashes_fuentes_correctos": true,
+  "enlaces_locales": 49,
+  "figura_revisada": "resultados/fase7/comparacion_h5.png",
+  "alcance": "exploratorio posterior a seleccion de H5; no hay experimentos Codicioso en N mayor"
+}

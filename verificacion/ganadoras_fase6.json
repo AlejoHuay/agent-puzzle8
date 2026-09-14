@@ -1,0 +1,60 @@
+{
+  "profundidad": {
+    "minimo_mediana": 22.0,
+    "configuraciones": [
+      "('astar', 'H3', '')",
+      "('astar', 'H5', '')",
+      "('astar', 'H6', '0.25')",
+      "('astar', 'H6', '0.75')",
+      "('astar', 'H1', '')",
+      "('astar', 'H4', '')",
+      "('astar', 'H6', '0.5')",
+      "('astar', 'H2', '')"
+    ]
+  },
+  "expandidos": {
+    "minimo_mediana": 36.0,
+    "configuraciones": [
+      "('codicioso', 'H5', '')"
+    ]
+  },
+  "generados": {
+    "minimo_mediana": 101.0,
+    "configuraciones": [
+      "('codicioso', 'H5', '')"
+    ]
+  },
+  "tiempo_cpu_ms": {
+    "minimo_mediana": 0.0,
+    "configuraciones": [
+      "('astar', 'H5', '')",
+      "('codicioso', 'H6', '0.25')",
+      "('codicioso', 'H5', '')",
+      "('codicioso', 'H6', '0.5')",
+      "('codicioso', 'H1', '')",
+      "('codicioso', 'H4', '')",
+      "('codicioso', 'H2', '')",
+      "('codicioso', 'H6', '0.75')",
+      "('codicioso', 'H3', '')",
+      "('astar', 'H2', '')"
+    ]
+  },
+  "tiempo_pared_ms": {
+    "minimo_mediana": 0.3371500060893595,
+    "configuraciones": [
+      "('codicioso', 'H5', '')"
+    ]
+  },
+  "memoria_max_nodos": {
+    "minimo_mediana": 67.5,
+    "configuraciones": [
+      "('codicioso', 'H5', '')"
+    ]
+  },
+  "rss_max_muestreado_mb": {
+    "minimo_mediana": 24.81640625,
+    "configuraciones": [
+      "('codicioso', 'H3', '')"
+    ]
+  }
+}
