@@ -16,13 +16,9 @@ Se pretende implementar y comparar Codicioso y A*, estudiar seis familias de heu
 
 La profundidad de una solución es su número de movimientos y coincide con el costo en este problema. Los movimientos usados para mezclar un tablero no son necesariamente su profundidad óptima.
 
-## 2. Fundamentos y relación con el material
+## 2. Fundamentos
 
-Se usan las diapositivas `material/Diapo-IA04Informado.md` y su PDF, los cuadernos `Puzzle_8.ipynb` y `03_agente_buscador.ipynb`, y las clases `AgenteBuscador.py` y `AgenteRK8.py`. La guía se encuentra en `material/guia-practicaIA_puzzleN.md`, contrastada con su PDF. El contenido original no se modifica.
-
-La solución conserva operadores separados del algoritmo, nombres en español, caminos de estados, una frontera y estados visitados. Como en `Puzzle_8.ipynb`, cada estado es una tupla plana e inmutable. Se construye cada hijo intercambiando elementos de una lista temporal; nunca se modifica el padre. La tabla de vecinos se calcula a partir de N, en el orden arriba, abajo, izquierda y derecha del agente proporcionado.
-
-Se adapta el enfoque del docente en vez de importar los ejemplos sin cambios: el paquete `AgenteIA` no viene completo, la clase del cuaderno carece de `set_acciones`, hay sucesores `None`, y los buscadores antiguos usan listas para los visitados. El material posterior recomienda conjuntos y montículos. No se copian las clases de aspiradora ni se agrega una jerarquía que el puzzle no necesita.
+La solución conserva operadores separados del algoritmo, nombres en español, caminos de estados, una frontera y estados visitados. Se construye cada hijo intercambiando elementos de una lista temporal; nunca se modifica el padre. La tabla de vecinos se calcula a partir de N, en el orden arriba, abajo, izquierda y derecha del agente proporcionado.
 
 En términos REAS: rendimiento = solución y métricas; entorno = tablero; actuadores = movimientos legales; sensores = configuración completa. El asistente es un agente basado en objetivos, con un modelo determinista y totalmente observable del problema.
 
@@ -354,7 +350,6 @@ El protocolo original, semillas, presupuestos e instancias se conservan en [prot
 
 ## 8. Fuentes
 
-- Material académico y guía originales en `material/`, especialmente §§1–4 y 7–9 de la guía. Su índice está desactualizado: se sigue la numeración del cuerpo.
 - Korf y Felner, *Disjoint pattern database heuristics*, Artificial Intelligence 134 (2002), 9–22: https://doi.org/10.1016/S0004-3702(01)00092-3. Fundamento de la suma con reparto de costos.
 - Documentación oficial de Pygame: https://www.pygame.org/docs/.
 - Documentación oficial de SciPy: [Friedman](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.friedmanchisquare.html), [Wilcoxon](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.wilcoxon.html), [bootstrap](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.bootstrap.html) y [prueba binomial](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.binomtest.html).
